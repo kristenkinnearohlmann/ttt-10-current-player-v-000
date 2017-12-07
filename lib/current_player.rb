@@ -18,9 +18,11 @@ def current_player(board)
   #   "O"
   # end
 
-  if turns.even?
-    "X"
-  else
-    "O"
-  end
+  # if turns.even?
+  #   "X"
+  # else
+  #   "O"
+  # end
+
+  turns.even? ? "X" : "O"
 end
